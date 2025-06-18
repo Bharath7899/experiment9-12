@@ -1,0 +1,5 @@
+f=open("C:\24FFMCA048\python\demo.txt","r")
+data=f.read()
+lw=data.split()
+pint("total number of words in a given file is:",len(lw))
+print("available word are:,"lw)
